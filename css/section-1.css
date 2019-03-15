@@ -1,0 +1,27 @@
+#section-1 {
+	max-height: 700px; 
+	background: url(https://seventhqueen.com/themes/kleo/sensei-e-learning/wp-content/uploads/sites/6/2015/06/hero16.jpg) no-repeat center; 
+	background-size: cover;
+	background-clip: padding-box;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.dashboard-item {
+	color: #FFF !important;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block !important;
+}
+
+#dashboard {
+	background-color: rgba(0,0,0,0) !important;
+}
+
+.dashboard-item {
+	background-color: rgba(0,0,0,0.6) !important;
+}
+
+.dashboard-item:hover {
+	background-color: rgba(0,0,0,0.4) !important;
+}

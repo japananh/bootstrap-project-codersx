@@ -1,0 +1,56 @@
+@import url('section-1.css');
+@import url('section-2.css');
+@import url('carousel.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300');
+
+body {
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+ul {
+	list-style: none !important; 
+}
+
+@media (min-width: 576px) {
+	.change-width {
+		max-width: 100% !important;
+	}
+	.img-wrapper {
+		width: 60%;
+	}
+	#section-1 .mySlides > h1 {
+	    font-size: 4rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.add-box-shadow {
+		position: relative;
+		bottom: 10px; 
+		box-shadow: 0px 0px 10px 4px #DDD; 
+		z-index: 1000;
+	}
+	.img-wrapper {
+		width: 15% !important;
+		margin-right: 30px;
+	}
+}
+
+@media (min-width: 992px) {
+	.nav-item:hover {
+		border-top: 1px solid #FFF !important;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#subcrible form input {
+		margin-bottom: 2rem !important;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.add-bg-color {
+		background-color: #111;
+		padding: 0 0 0 1rem !important;
+	}
+}

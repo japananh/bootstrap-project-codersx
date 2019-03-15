@@ -1,0 +1,12 @@
+#teachers-container {
+	color: #FFF;
+	background: url(https://seventhqueen.com/themes/kleo/sensei-e-learning/wp-content/uploads/sites/6/2014/09/back6.jpg) no-repeat center; 
+	background-attachment: fixed; 
+	background-size: cover; 
+	padding: 5rem 0;
+	font-size: 0.9rem;
+}
+
+#teachers-container .img-signature {
+	margin: 2rem 0 6rem;
+}

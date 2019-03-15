@@ -1,0 +1,39 @@
+#section-2 {
+	background: url(https://seventhqueen.com/themes/kleo/sensei-e-learning/wp-content/uploads/sites/6/2014/09/speech_icons_red.png) no-repeat center; 
+	background-size: cover;
+}
+
+#section-2 .show-border {
+	width: 6rem; 
+	height: 6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#section-2 .show-border:hover {
+	border: 1px solid #FFF;
+	border-radius: 50%;
+}
+
+#section-2 .overlay {
+	width: 100%;
+	height: 100%;
+}
+
+.user-wrapper:hover .overlay{
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 50%;
+}
+
+.show-icon {
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+.user-wrapper:hover .show-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}

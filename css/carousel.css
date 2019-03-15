@@ -1,0 +1,92 @@
+/* Slideshow container */
+#section-1 .slideshow-container {
+    height: 30rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    padding-top: 5rem;
+    margin: auto;
+}
+/* Next & previous buttons */
+#section-1 .prev, #section-1 .next {
+    cursor: pointer;
+    background-color: rgba(0,0,0,.2);
+    width: auto;
+    padding: 2rem 2.5rem;
+    font-size: 2rem;
+    transition: background-color 0.6s ease;
+    user-select: none;
+}
+
+#section-1 .prev {
+	justify-self: start;
+}
+
+#section-1 .next {
+    justify-self: end;
+}
+
+#section-1 .prev:hover, #section-1 .next:hover {
+    background-color: rgba(0,0,0,.5);
+}
+
+/* Caption text */
+#section-1 .mySlides > h1 , #section-1 .mySlides > p {
+    user-select: none;
+    color: #FFF;
+}
+
+#section-1 .mySlides > p {
+    font-style: italic;
+}
+
+.mySlides p:nth-child(3) {
+    font-size: 0.9em;
+}
+/* The dots/bullets/indicators */
+#section-1 .dot {
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+#section-1 .active, #section-1 .dot:hover {
+    background-color: #DDD;
+}
+/* Fading animation */
+#section-1 .fade-caption {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade-caption {
+    from {opacity: .2} 
+    to {opacity: 1}
+}
+
+@keyframes fade-caption {
+    from {opacity: .2} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 576px) {
+    #section-1 h1 {
+        font-size: 1.5rem;
+    }
+
+    #section-1 p {
+        font-size: 0.6rem;
+    }
+
+    #section-1 .prev, #section-1 .next {
+        padding: 1rem 1.2rem;
+        font-size: 1rem;
+    }
+}
