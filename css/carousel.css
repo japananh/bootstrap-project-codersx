@@ -1,9 +1,13 @@
 /* Slideshow container */
 #section-1 .slideshow-container {
     height: 30rem;
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    align-items: center;
+    -ms-grid-columns: 1fr 3fr 1fr;
+        grid-template-columns: 1fr 3fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 5rem;
     margin: auto;
 }
@@ -14,16 +18,23 @@
     width: auto;
     padding: 2rem 2.5rem;
     font-size: 2rem;
+    -webkit-transition: background-color 0.6s ease;
+    -o-transition: background-color 0.6s ease;
     transition: background-color 0.6s ease;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 #section-1 .prev {
-	justify-self: start;
+    -ms-grid-column-align: start;
+        justify-self: start;
 }
 
 #section-1 .next {
-    justify-self: end;
+    -ms-grid-column-align: end;
+        justify-self: end;
 }
 
 #section-1 .prev:hover, #section-1 .next:hover {
@@ -32,7 +43,10 @@
 
 /* Caption text */
 #section-1 .mySlides > h1 , #section-1 .mySlides > p {
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     color: #FFF;
 }
 
@@ -40,8 +54,8 @@
     font-style: italic;
 }
 
-.mySlides p:nth-child(3) {
-    font-size: 0.9em;
+#section-1 .mySlides p:nth-child(3) {
+    font-size: 0.5rem;
 }
 /* The dots/bullets/indicators */
 #section-1 .dot {
@@ -51,6 +65,8 @@
     border: 1px solid #FFF;
     border-radius: 50%;
     display: inline-block;
+    -webkit-transition: background-color 0.6s ease;
+    -o-transition: background-color 0.6s ease;
     transition: background-color 0.6s ease;
 }
 

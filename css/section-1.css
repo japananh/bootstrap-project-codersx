@@ -1,6 +1,6 @@
 #section-1 {
 	max-height: 700px; 
-	background: url(https://seventhqueen.com/themes/kleo/sensei-e-learning/wp-content/uploads/sites/6/2015/06/hero16.jpg) no-repeat center; 
+	background: url('images/background-section-1.jpg') no-repeat center; 
 	background-size: cover;
 	background-clip: padding-box;
 }

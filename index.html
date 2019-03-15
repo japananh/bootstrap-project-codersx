@@ -7,10 +7,17 @@
     <title>Sensei-e-learning</title>
 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/section-1.css" />
+    <link rel="stylesheet" type="text/css" href="css/section-2.css" />
+    <link rel="stylesheet" type="text/css" href="css/teachers.css" />
+    <link rel="stylesheet" type="text/css" href="css/new-courses.css" />
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300">  
 </head>
 
 <body>        
@@ -18,7 +25,7 @@
         <nav class="navbar navbar-expand-lg navbar-light add-bg-color">
             <div class="container change-width">
                 <a href="#">
-                    <img src="https://seventhqueen.com/themes/kleo/sensei-e-learning/wp-content/uploads/sites/6/2014/09/logo_white_teal.png" class="img-fluid" />
+                    <img src="css/images/logo.png" class="img-fluid" />
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
@@ -49,7 +56,7 @@
                         </li>
                         <li class="nav-item dropdown d-flex align-items-center ml-2 border-0" style="">
                             <a class="nav-link" data-toggle="dropdown" href="#"><i class="fas fa-search" style="color: #FFF;"></i></a>
-                            <div class="dropdown-menu" style="position:absolute; right: -10px;">
+                            <div class="dropdown-menu">
                               <input type="text" name="" placeholder="Start typing to search" class="dropdown-item w-30" />
                             </div>
                         </li>
@@ -59,7 +66,7 @@
         </nav>      
 
         <div class="container change-width pb-3 pb-md-4">
-            <div class="slideshow-container">
+            <div class="slideshow-container mb-xl-4">
                 <a class="prev text-white" onclick="plusSlides(-1)">&#10094;</a>
 
                 <div class="mySlides fade-caption">
@@ -84,7 +91,7 @@
             </div>
             <br />
 
-            <div class="text-center">
+            <div class="text-center mt-xl-4">
                 <span class="dot" onclick="currentSlide(1)"></span> 
                 <span class="dot" onclick="currentSlide(2)"></span> 
                 <span class="dot" onclick="currentSlide(3)"></span>
@@ -129,7 +136,7 @@
                     <div class="d-flex justify-content-center pt-4 pb-4">
                         <a href="#">
                             <div class="user-wrapper position-relative">
-                                <img src="https://picsum.photos/80" class="rounded-circle" style="border:5px solid #fff7f87d" />
+                                <img src="css/images/user.jpeg" class="rounded-circle" style="border:5px solid #fff7f87d; width: 5rem;" />
                                 <div class="overlay position-absolute" style="top: 0;">
                                     <span class="show-icon"><i class="fas fa-plus fa-sm text-white"></i></span>
                                 </div>                            
@@ -137,7 +144,7 @@
                         </a>
                         <a href="#">
                             <div class="user-wrapper position-relative">
-                                <img src="https://picsum.photos/80" class="rounded-circle" style="border:5px solid #fff7f87d" />
+                                <img src="css/images/user.jpeg" class="rounded-circle" style="border:5px solid #fff7f87d; width: 5rem;" />
                                 <div class="overlay position-absolute" style="top: 0;">
                                     <span class="show-icon"><i class="fas fa-plus fa-sm text-white"></i></span>
                                 </div>                            
@@ -145,7 +152,7 @@
                         </a>
                         <a href="#">
                             <div class="position-relative user-wrapper">
-                                <img src="https://picsum.photos/80" class="rounded-circle" style="border:5px solid #fff7f87d" />
+                                <img src="css/images/user.jpeg" class="rounded-circle" style="border:5px solid #fff7f87d; width: 5rem;" />
                                 <div class="overlay position-absolute" style="top: 0;">
                                     <span class="show-icon"><i class="fas fa-plus fa-sm text-white"></i></span>
                                 </div>                            
@@ -161,56 +168,84 @@
     </div>
 
     <!--   New Courses  -->
-    <div class="bg-light pb-4 pt-4">
+    <div class="new-courses bg-light pb-4 pt-4">
         <div class="container change-width">
             <div class="mt-4 mb-4 m-md-4 pt-4">
-                <h1 class="text-center text-dark pt-4 pb-4">New Course</h1>
+                <h1 class="text-center text-dark pt-4 pb-4">New Courses</h1>
                 <p class="text-center text-secondary mb-4 pb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ea, ab delectus culpa molestias, adipisci repellendus accusantium provident, consequuntur quia accusamus. Atque dicta tenetur excepturi voluptate voluptatum? Perspiciatis, omnis dicta.</p>
             </div>
             <div class="mb-4">
                 <div class="text-center d-flex justify-content-center align-items-center">
-                    <hr width="15%" class="m-1" />
+                    <hr width="40%" class="m-1" />
                     <i class="fa fa-star-half-alt fa-xs" style="color:#AAA;"></i>
-                    <hr width="15%" class="m-1" />
+                    <hr width="40%" class="m-1" />
                 </div>
             </div>
             <div class="row pb-4">
                 <div class="col-12 col-md-3 mb-4">
-                    <div class="card bg-light border border-light">
-                        <a href="#"><img src="https://picsum.photos/900" class="card-img-top" alt="..."></a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Special title treatment</h5>
-                            <p class="card-text text-center text-secondary mt-4">With supporting text below as a natural lead-in to additional content.</p>
-                            <div class="d-flex justify-content-center"><a href="#" class="btn btn-danger btn-l"g><small>Read more</small></a></div>
+                    <div class="card bg-light border border-light ">
+                        <div class="position-relative">
+                            <a href="#">
+                                <img src="css/images/course-1.png" class="card-img-top " alt="piano-image" />
+                                <div class="overlay position-absolute">
+                                    <i class="fas fa-search fa-2x text-white"></i>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 mb-4">
-                    <div class="card bg-light border border-light">
-                        <a href="#"><img src="https://picsum.photos/800" class="card-img-top" alt="..."></a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Special title treatment</h5>
-                            <p class="card-text text-center text-secondary mt-4">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="card-body pl-1 pr-1">
+                            <h5 class="card-title text-center">How to Play the Piano</h5>
+                            <p class="card-text text-center text-secondary mt-4 mb-4">This introductory course will teach you the basic of playing the piano, starting with chords and rhythm, before moving on to playing full songs.</p>
                             <div class="d-flex justify-content-center"><a href="#" class="btn btn-danger btn-lg"><small>Read more</small></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 mb-4">
                     <div class="card bg-light border border-light">
-                        <a href="#"><img src="https://picsum.photos/600" class="card-img-top" alt="..."></a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Special title treatment</h5>
-                            <p class="card-text text-center text-secondary mt-4">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="position-relative">
+                            <a href="#">
+                                <img src="css/images/course-2.png" class="card-img-top " alt="ghitar-image" />
+                                <div class="overlay position-absolute">
+                                    <i class="fas fa-search fa-2x text-white"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card-body pl-1 pr-1">
+                            <h5 class="card-title text-center">How to Play the Guitar</h5>
+                            <p class="card-text text-center text-secondary mt-4 mb-4">A collection of introductory videos for learning how to play the guitar and become a rockstar.</p>
                             <div class="d-flex justify-content-center"><a href="#" class="btn btn-danger btn-lg"><small>Read more</small></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 mb-4">
                     <div class="card bg-light border border-light">
-                        <a href="#"><img src="https://picsum.photos/700" class="card-img-top" alt="..."></a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Special title treatment</h5>
-                            <p class="card-text text-center text-secondary mt-4">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="position-relative">
+                            <a href="#">
+                                <img src="css/images/course-3.png" class="card-img-top " alt="art-image" />
+                                <div class="overlay position-absolute">
+                                    <i class="fas fa-search fa-2x text-white"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card-body pl-1 pr-1">
+                            <h5 class="card-title text-center">WooThemes 101</h5>
+                            <p class="card-text text-center text-secondary mt-4 mb-4">This course will help you learn some interesting information about the WooTeam and the WooThemes ecosystem.</p>
+                            <div class="d-flex justify-content-center"><a href="#" class="btn btn-danger btn-lg"><small>Read more</small></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-4">
+                    <div class="card bg-light border-light">
+                        <div class="position-relative">
+                            <a href="#">
+                                <img src="css/images/course-4.png" class="card-img-top " alt="design-image" />
+                                <div class="overlay position-absolute">
+                                    <i class="fas fa-search fa-2x text-white"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card-body pl-1 pr-1">
+                            <h5 class="card-title text-center">Sensei Theming 101</h5>
+                            <p class="card-text text-center text-secondary mt-4 mb-4">This course will help you integrate your themes with Sensei and extend the templating system.</p>
                             <div class="d-flex justify-content-center">
                                 <a href="#" class="btn btn-danger btn-lg"><small>Read more</small></a>
                             </div> 
@@ -229,7 +264,7 @@
         <div class="container change-width mt-4 mb-4">
             <div class="row">
                 <div class="col-12 col-md-6 order-1 d-flex align-items-center">
-                    <img src="https://seventhqueen.com/themes/kleo/sensei-e-learning/wp-content/uploads/sites/6/2014/09/image_0108.png" alt="img_018" class="img-fluid"/>
+                    <img src="css/images/image_06.png" class="img-fluid" />
                 </div>
                 <div class="col-12 col-md-6 order-2 m-auto">
                     <h2 class="text-center text-dark">You can learn from anywhere</h2>
@@ -245,7 +280,7 @@
         <div class="container change-width mt-4 mb-4">
             <div class="row">
                 <div class="col-12 col-md-6 order-2 d-flex align-items-center">
-                    <img src="https://seventhqueen.com/themes/kleo/sensei-e-learning/wp-content/uploads/sites/6/2014/09/image_01091.png" alt="img_018" class="img-fluid" />
+                    <img src="css/images/image_01091.png" alt="img_01091" class="img-fluid" />
                 </div>
                 <div class="col-12 col-md-6 order-1 m-auto">
                     <h2 class="text-center text-dark">Learn online, share ideas, get notified</h2>
@@ -413,24 +448,24 @@
             <p>Marvin remembers the day he came to London for the first time – 17 November 1993. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 
-            <img class="img-signature" src="https://seventhqueen.com/themes/kleo/sensei-e-learning/wp-content/uploads/sites/6/2014/09/signiture.png" width="118" height="71" alt="signiture" title="signiture" />
+            <img class="img-signature" src="css/images/signature.png" alt="signature" title="signature" />
 
             <div class="d-md-flex justify-content-flex-start">
                 <div class="img-wrapper">
                     <a href="#" class="img-wrapper">
-                        <img class="mb-4 w-100 h-auto" src="https://seventhqueen.com/themes/kleo/sensei-e-learning/wp-content/uploads/sites/6/2014/09/team_01-400x400.jpg" alt="team_01" title="team_01" />
+                        <img class="mb-4 w-100 h-auto" src="css/images/team_01-400x400.jpg" alt="team_01" title="team_01" />
                     </a>            
                     <p class="mt-3">Jason Collins</p>
                 </div>
                 <div class="img-wrapper">
                     <a href="#" class="img-wrapper">
-                        <img class="mb-4 w-100 h-auto" src="https://seventhqueen.com/themes/kleo/sensei-e-learning/wp-content/uploads/sites/6/2014/09/team_02-400x400.jpg" width="400" height="400" alt="team_02" title="team_02" />
+                        <img class="mb-4 w-100 h-auto" src="css/images/team_02-400x400.jpg" width="400" height="400" alt="team_02" title="team_02" />
                     </a>            
                     <p class="mt-3">Douglas Wood</p>
                 </div>
                 <div class="img-wrapper">
                     <a href="#" class="img-wrapper">
-                        <img class="mb-4 w-100 h-auto" src="https://seventhqueen.com/themes/kleo/sensei-e-learning/wp-content/uploads/sites/6/2014/09/team_03-400x400.jpg" width="400" height="400" alt="team_03" title="team_03" />
+                        <img class="mb-4 w-100 h-auto" src="css/images/team_03-400x400.jpg" width="400" height="400" alt="team_03" title="team_03" />
                     </a>            
                     <p class="mt-3">Rebecca Jenkins</p>
                 </div>
