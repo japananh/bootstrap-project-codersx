@@ -1,0 +1,1 @@
+This is my bootstrap project at Coders Tokyo School.
